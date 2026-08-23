@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>alph</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chatbot">
+
+        <div class="header">
+            <div>
+                <h2>alph</h2>
+                <span class="status">● Online</span>
+            </div>
+        </div>
+
+
+        <div id="chat" class="chat">
+
+            <div class="message bot">
+                Hello! I'm a alph. Say hi!
+            </div>
+
+        </div>
+
+
+        <div class="input-area">
+
+            <input
+                id="input"
+                type="text"
+                placeholder="Type a message..."
+                autocomplete="off"
+            >
+
+            <button
+                id="sendButton"
+                type="button"
+            >
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Markdown renderer -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
